@@ -1,0 +1,233 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Bai Jamjuree" ,sans-serif;
+    margin: 0;
+    text-decoration: none;
+}
+.header .container{
+    position: relative;
+    width: 1444px;
+    height: 800px;
+}
+.header .logo{
+    position: absolute;
+    margin-left: 47%;
+    margin-top: -233px;
+}
+
+.header .logo img{
+    width: 100px;
+    height: 100px;
+}
+.header .info h1{
+    margin-top: -90px;
+    left: 457px;
+    position: absolute;
+}
+.header .info p:first-of-type{
+    margin-top: -35px;
+    width: 529px;
+    left: 457px;
+    color: #0000007d;
+    position: absolute;
+}
+.header .info .ios{
+    position: absolute;
+    left: 533px;
+    width: 191px;
+    margin-top: 29px;
+    background-color: hsl(171, 66%, 44%);
+    height: 42px;
+    color: white;
+    border-radius: 20px;
+    padding: 13px 30px;
+}
+.header .info .mac{
+    position: absolute;
+    left: 738px;
+    width: 191px;
+    margin-top: 29px;
+    background-color: hsl(233, 100%, 69%);
+    height: 42px;
+    color: white;
+    border-radius: 20px;
+    padding: 13px 30px;
+}
+.header .info h2{
+    margin-top: 163px;
+    left: 556px;
+    position: absolute;
+}
+.header .info p:last-of-type{
+    margin-top: 211px;
+    width: 586px;
+    left: 457px;
+    color: #0000007d;
+    position: absolute;
+}
+.core .container{
+    position: relative;
+    width: 1444px;
+    height: 800px;
+    margin-top: -81px;
+    left: -50px;
+    display: flex;
+    justify-content: space-between;
+}
+.core img{
+    left: 19px;
+    width: 734px;
+    height: 470px;
+    position: absolute;
+}
+.core .info{
+    position: absolute;
+    left: 850px;
+    padding-top: 50px;
+}
+.core p{
+    color: #0000007d;
+    width: 339px;
+}
+.access h2{
+    margin-top: -212px;
+    left: 556px;
+    position: absolute;
+}
+.access p{
+    margin-top: -149px;
+    width: 586px;
+    left: 457px;
+    color: #0000007d;
+    position: absolute; 
+}
+.access img{
+    position: absolute;
+    left: 323px;
+    width: 778px;
+    height: 427px;
+    margin-top: -37px;
+}
+.access .workflow h2{
+    margin-top: 432px;
+    left: 556px;
+    position: absolute; 
+}
+.access .workflow p{
+    margin-top: 480px;
+    width: 586px;
+    left: 575px;
+    font-size: 13px;
+    color: #0000007d;
+    position: absolute; 
+}
+.view .container{
+    position: relative;
+    width: 1444px;
+    height: 800px;
+    margin-top: 544px; 
+    padding-left: 165px;
+    justify-content: space-evenly;
+    
+}
+.view .list{
+    position: absolute;
+    display: flex;
+   text-align: center;
+   
+
+}
+.list img{
+    width: 37px;
+    height: 30px;
+}
+.list p{
+width: 350px;
+margin: 10px;
+color: #0000007d;;
+}
+.view .icons{
+    padding-top:300px ;
+
+}
+.view .icons img{
+    width: 110px;
+    margin: 50px;
+}
+.view .info{
+    padding-top: 200px;
+}
+.view .info h1{
+    margin-top: -90px;
+    left: 457px;
+    position: absolute;
+}
+.view .info p{
+    margin-top: -35px;
+    width: 607px;
+    left: 366px;
+    color: #0000007d;
+    position: absolute;
+    text-align: center;
+}
+.view .info .ios{
+    position: absolute;
+    left: 462px;
+    width: 191px;
+    margin-top: 29px;
+    background-color: hsl(171, 66%, 44%);
+    height: 42px;
+    color: white;
+    border-radius: 20px;
+    padding: 13px 30px;
+}
+.view .info .mac{
+    position: absolute;
+    left:665px;
+    width: 191px;
+    margin-top: 29px;
+    background-color: hsl(233, 100%, 69%);
+    height: 42px;
+    color: white;
+    border-radius: 20px;
+    padding: 13px 30px;
+}
+.footer .container{
+ position: relative;
+    width: 1328px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #a9a9a921;
+    align-items: center;
+    padding-left: 95px;
+}
+
+.footer li {
+   text-decoration: none;
+ 
+   list-style: none;
+   margin-left: 50px;
+}
+.footer li a{
+    text-decoration: none;
+    color: #0000007d;
+    margin: 5px;
+ }
+.footer .logo img{
+    width: 50px;
+    height: 50px;
+}
+.footer .icons img {
+    margin: 10px;
+}
+.footer .B{
+    margin-left: -108px;
+}
+.footer .C{
+    margin-left: -81px;
+}
